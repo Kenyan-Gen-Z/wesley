@@ -1,2 +1,2 @@
-# myrepo1
+# myremote1
 none
