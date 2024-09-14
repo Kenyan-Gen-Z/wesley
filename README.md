@@ -1,2 +1,2 @@
-# myremote1
+# my remote1
 none
