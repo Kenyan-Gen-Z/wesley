@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care Website</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <img src="sampler 1.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="facility.html">Facility</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn">Log In</a>
+                <a href="signup.html" class="btn primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="video-content">
+            <h1>We Care About Your Health</h1>
+            <p>Always ready to help with 24 hour support and care.</p>
+            <div class="button-group"></div>
+                <a href="book.html" class="btn primary">Book Now</a>
+               <button><a href="#" class="btn secondary" onclick="playvideo()">Play Video</a></button> 
+            </div>
+        </div>
+        <div class="video-content">
+            <video  width="640" height="360" controls style="display:inline-block;">
+            <source src="who is this guy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <script>
+            function playVideo() {
+                var video = document.getElementById("health-video");
+                video.style.display = "inline-block";
+                video.play();
+            }
+        </script>
+        
+    
+     </div> 
+        
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stat-item">
+            <strong>95%</strong>
+            <p>Qualified Personnel</p>
+        </div>
+        <div class="stat-item">
+            <strong>1,500+</strong>
+            <p>Tools and Equipment</p>
+        </div>
+        <div class="stat-item">
+            <strong>3,000+</strong>
+            <p>Health Care Workers</p>
+        </div>
+        <div class="stat-item">
+            <strong>100%</strong>
+            <p>Treatment to Full Recovery</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <h2>Our Best Services</h2>
+        <div class="service-item">
+            <img src="icon1.png" alt="Service 1">
+            <p>All Specialist</p>
+        </div>
+        <div class="service-item">
+            <img src="icon2.png" alt="Service 2">
+            <p>Private & Secure</p>
+        </div>
+        <div class="service-item">
+            <img src="icon3.png" alt="Service 3">
+            <p>Million Customers</p>
+        </div>
+        <div class="service-item">
+            <img src="icon4.png" alt="Service 4">
+            <p>Chatbot Support</p>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section class="specialties-section">
+        <h2>Our Specialties</h2>
+        <div class="specialty-item">
+            <img src="icon1.png" alt="Specialty 1">
+            <p>Body Health</p>
+        </div>
+        <div class="specialty-item">
+            <img src="icon2.png" alt="Specialty 2">
+            <p>Stomach</p>
+        </div>
+        <div class="specialty-item">
+            <img src="icon3.png" alt="Specialty 3">
+            <p>Psychiatry</p>
+        </div>
+        <div class="specialty-item">
+            <img src="icon4.png" alt="Specialty 4">
+            <p>Urology</p>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="doctors-section">
+        <h2>Our Best Doctors</h2>
+        <div class="doctor-item">
+            <img src="doctor1.jpg" alt="Doctor 1">
+            <p>Dr. Alex, Ph.D.</p>
+        </div>
+        <div class="doctor-item">
+            <img src="doctor2.jpg" alt="Doctor 2">
+            <p>Dr. Robert, Ph.D.</p>
+        </div>
+        <div class="doctor-item">
+            <img src="doctor3.jpg" alt="Doctor 3">
+            <p>Dr. Angel, Ph.D.</p>
+        </div>
+        <div class="doctor-item">
+            <img src="doctor4.jpg" alt="Doctor 4">
+            <p>Dr. Ruslin, Ph.D.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <h2>What People Say About Us</h2>
+        <div class="testimonial-item">
+            <img src="user1.jpg" alt="User 1">
+            <p>“Great service!”</p>
+        </div>
+        <div class="testimonial-item">
+            <img src="user2.jpg" alt="User 2">
+            <p>“Highly recommend!”</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+                <li>Support</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Features</h3>
+        </div>
+        <div class="footer-section">
+            <h3>User</h3>
+        </div>
+    </footer>
+
+</body>
+</html>
